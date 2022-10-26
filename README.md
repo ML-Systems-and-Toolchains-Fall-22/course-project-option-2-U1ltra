@@ -4,7 +4,7 @@
 For our project we decided to work on option 2, which deals with MQTT dataset. The two team members are
 
 - Jiarui Li - jiaruil3@cmu.edu
-- Zehua Zhang - 
+- Zehua Zhang - zehuazha@andrew.cmu.edu
 
 ------
 
