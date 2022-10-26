@@ -25,43 +25,40 @@ The features can be understand in four main subparts, namely <b>tcp</b>, <b>mqtt
 
 |         Features          |    Sample Data   |    Data Type   |
 | ------------------------- |:----------------:| --------------:|
-|tcp.flags                  | 0x00000018 |
-|tcp.time_delta             | 0.998867   |
-|tcp.len                    | 10         |
-|mqtt.conack.flags          | 0          |
-|mqtt.conack.flags.reserved | 0.0        |
-|mqtt.conack.flags.sp       | 0.0        |
-|mqtt.conack.val            | 0.0        |
-|mqtt.conflag.cleansess     | 0.0        |
-|mqtt.conflag.passwd        | 0.0        |
-|mqtt.conflag.qos           | 0.0        |
-|mqtt.conflag.reserved      | 0.0        |
-|mqtt.conflag.retain        | 0.0        |
-|mqtt.conflag.uname         | 0.0        |
-|mqtt.conflag.willflag      | 0.0        |
-|mqtt.conflags              | 0          |
-|mqtt.dupflag               | 0.0        |
-|mqtt.hdrflags              | 0x00000030 |
-|mqtt.kalive                | 0.0        |
-|mqtt.len                   | 8.0        |
-|mqtt.msg                   | 32         |
-|mqtt.msgid                 | 0.0        |
-|mqtt.msgtype               | 3.0        |
-|mqtt.proto_len             | 0.0        |
-|mqtt.protoname             | 0          |
-|mqtt.qos                   | 0.0        |
-|mqtt.retain                | 0.0        |
-|mqtt.sub.qos               | 0.0        |
-|mqtt.suback.qos            | 0.0        |
-|mqtt.ver                   | 0.0        |
-|mqtt.willmsg               | 0.0        |
-|mqtt.willmsg_len           | 0.0        |
-|mqtt.willtopic             | 0.0        |
-|mqtt.willtopic_len         | 0.0        |
-|target                     | legitimate |
-|dataset                    | 0          |
-
-
-
+|tcp.flags                  | 0x00000018 |  string  |
+|tcp.time_delta             | 0.998867   |  double  |
+|tcp.len                    | 10         |  integer |
+|mqtt.conack.flags          | 0          |  string  |
+|mqtt.conack.flags.reserved | 0.0        |  double  |
+|mqtt.conack.flags.sp       | 0.0        |  double  |
+|mqtt.conack.val            | 0.0        |  double  |
+|mqtt.conflag.cleansess     | 0.0        |  double  |
+|mqtt.conflag.passwd        | 0.0        |  double  |
+|mqtt.conflag.qos           | 0.0        |  double  |
+|mqtt.conflag.reserved      | 0.0        |  double  |
+|mqtt.conflag.retain        | 0.0        |  double  |
+|mqtt.conflag.uname         | 0.0        |  double  |
+|mqtt.conflag.willflag      | 0.0        |  double  |
+|mqtt.conflags              | 0          |  string  |
+|mqtt.dupflag               | 0.0        |  double  |
+|mqtt.hdrflags              | 0x00000030 |  string  |
+|mqtt.kalive                | 0.0        |  double  |
+|mqtt.len                   | 8.0        |  double  |
+|mqtt.msg                   | 32         |  string  |
+|mqtt.msgid                 | 0.0        |  double  |
+|mqtt.msgtype               | 3.0        |  double  |
+|mqtt.proto_len             | 0.0        |  double  |
+|mqtt.protoname             | 0          |  string  |
+|mqtt.qos                   | 0.0        |  double  |
+|mqtt.retain                | 0.0        |  double  |
+|mqtt.sub.qos               | 0.0        |  double  |
+|mqtt.suback.qos            | 0.0        |  double  |
+|mqtt.ver                   | 0.0        |  double  |
+|mqtt.willmsg               | 0.0        |  double  |
+|mqtt.willmsg_len           | 0.0        |  double  |
+|mqtt.willtopic             | 0.0        |  double  |
+|mqtt.willtopic_len         | 0.0        |  double  |
+|target                     | legitimate |  string  |
+|dataset                    | 0          |  integer |
 
 
