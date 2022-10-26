@@ -92,4 +92,7 @@ For <b>mqtt_msg</b>, it is a piece of message without specific form, so it shoul
 3. range ?
 4. Ingest all the data to answer the following questions from the Postgres Database table?
 5. For each target, what is the average length of the TCP message? - training?
-
+6. does the coding style of twitter looks right?
+7. submit twice?
+8. stream.filter(tweet_fields=["referenced_tweets"]) usage?
+9. does the listener look right? what if no word in the list appears
