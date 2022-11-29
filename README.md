@@ -19,9 +19,9 @@ Table of Content
 
 - [Feature Engineering Principles](#feature)<br>
 - [PySpark ML Models](#pyspark)<br>
-- [TensorFlow Models](#tf)<br>
+- [TensorFlow Models](#tf)<br/>
 
-[How to Run with Docker](#docker)
+[How to Run with Docker](#docker)<br/>
 [Video](video)
 
 ------
