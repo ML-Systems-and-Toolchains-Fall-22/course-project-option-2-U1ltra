@@ -284,6 +284,9 @@ python3 producer.py
 ```
 
 ### Video <a id="video"></a>
-[introduction](https://youtu.be/ObeVo9jJ2KY)<br/>
-[checkpoint1](https://youtu.be/DDhFwHo0YBA)<br/>
-[checkpoint2](https://youtu.be/KV5OPr8eGfs)<br/>
+The following are videos explaining our code and final results. Feel free to refer to them.
+- [Introduction](https://youtu.be/ObeVo9jJ2KY)<br/>
+- [Checkpoint1](https://youtu.be/DDhFwHo0YBA)<br/>
+- [Checkpoint2](https://youtu.be/KV5OPr8eGfs)<br/>
+- [Cloud Postgresql](https://youtu.be/2Ab4LtN1brU)<br/>
+- [Docker](https://youtu.be/2FDPavHBdxY)<br/>
