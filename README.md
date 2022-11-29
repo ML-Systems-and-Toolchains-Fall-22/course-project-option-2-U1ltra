@@ -280,6 +280,8 @@ python3 consumer.py
 python3 producer.py
 ```
 
+Finally, make sure to modify the data path and postgres related configerations to your local setting. Otherwise, the program may not find the desired file or the database (schema, table, user, password).
+
 ### Video <a id="video"></a>
 The following are videos explaining our code and final results. Feel free to refer to them.
 - [Introduction](https://youtu.be/ObeVo9jJ2KY)<br/>
