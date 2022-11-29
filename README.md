@@ -6,8 +6,6 @@ For our project we decided to work on option 2, which deals with MQTT dataset. T
 - Jiarui Li - jiaruil3@andrew.cmu.edu
 - Zehua Zhang - zehuazha@andrew.cmu.edu
 
-<span style="color:red">**Important Note**: our final branch is branch named ***part2***. Please use this branch to grade.</span>
-
 ------
 Table of Content
 
