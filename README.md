@@ -14,7 +14,6 @@ Table of Content
 [Project Directory Structure](#ProjectDirectoryStructure)<br>
 [Overview](#Overview)<br>
 [Dataset Features & SQL Table](#Dataset)<br>
-[Notebooks](#Notebooks)<br>
 [ML Models](#MLModel)<br>
 
 - [Feature Engineering Principles](#feature)<br>
