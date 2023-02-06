@@ -112,6 +112,7 @@ For <b>mqtt_msg</b>, it is a piece of message without specific form, so it shoul
 #### feature engineering principles<a id="feature"></a>
 Here we further cleaned up the data and did the feature engineering in this part. Specifically, more columns aer dropped and features are converted to proper dtype and then assembled as a feature vector ready for ML models. 
 We dropped the following columns, because they has only value of 0 throughout the dataframe:
+
     "mqtt_conack_flags",
     "mqtt_conack_flags_reserved",
     "mqtt_conack_flags_sp", 
