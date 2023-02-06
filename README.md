@@ -148,10 +148,11 @@ Multi Layer Perceptron is used here as a basic Neural Network. By using a basic 
 
 In the CrossValidation, the number of fold is set to 5. 
 Through the following layers, and potential maxIter parameters (100 vs 150), we achieved a test accuracy of 0.8107035096077497 with 100 iterations and layer of [30, 10, 20, 6], indicating that a model with more layers not neccessarily have better effect while the potential harm of overfitting is increasing. 
-[30, 10, 20,  6],
-[30, 10, 20, 20,  6],
-[30, 10, 20, 40, 6],
-[30, 10, 20, 40, 20, 6]]
+
+    [30, 10, 20,  6],
+    [30, 10, 20, 20,  6],
+    [30, 10, 20, 40, 6],
+    [30, 10, 20, 40, 20, 6]]
 
 
 #### TensorFlow models. <a id="tf"></a>
@@ -161,28 +162,30 @@ For TensorFlow models, we created 2 neural network, a shallow one and a deep one
 In the shallow NN, the widths are [15, 25, 35, 50], and the activation functions are ['tanh', 'gelu']. After cross validation, the best test accuracy is achieved with a width of 25 for each layer, and activation function equals to 'gelu.' The accuracy is 0.8269590735435486, and the loss is 0.4354126453399658. Models that use tanh in general performs worse than ones with gelu with a higher variance.
 
 Width, Activation function  test loss, test acc: 
-15, gelu                    [0.4293350279331207, 0.8268182277679443]
-25, gelu                    [0.4188815951347351, 0.8269590735435486]
-35, gelu                    [0.42542606592178345, 0.8254702687263489]
-50, gelu                    [0.47279900312423706, 0.8188109993934631]
+
+    15, gelu                    [0.4293350279331207, 0.8268182277679443]
+    25, gelu                    [0.4188815951347351, 0.8269590735435486]
+    35, gelu                    [0.42542606592178345, 0.8254702687263489]
+    50, gelu                    [0.47279900312423706, 0.8188109993934631]
 
 
-15, tanh                    [0.4764169156551361, 0.8125942945480347] 
-25, tanh                    [0.4881387948989868, 0.8104214668273926]
-35, tanh                    [0.49583932757377625, 0.8076450824737549]
-50, tanh                    [0.5551455020904541, 0.7912081480026245]
+    15, tanh                    [0.4764169156551361, 0.8125942945480347] 
+    25, tanh                    [0.4881387948989868, 0.8104214668273926]
+    35, tanh                    [0.49583932757377625, 0.8076450824737549]
+    50, tanh                    [0.5551455020904541, 0.7912081480026245]
 
 ##### Deep NN <a id="deep"></a>
 In the Deep NN, the widths are [10, 15, 20], and the activation function options are the same as before. After cross validation, the best test accuracy is achieved with a width of 15 for each layer, and activation function equals to 'gelu.' The accuracy is 0.8267980813980103, and the loss is 0.4354126453399658. Models that use tanh in general performs worse than ones with gelu with a higher variance.
 The outcomes for each model are as follows:
 Width, Activation function | test loss, test acc: 
-10, gelu                    [0.4495931565761566, 0.8146061897277832] 
-15, gelu                    [0.4354126453399658, 0.8267980813980103]
-20, gelu                    [0.5503770709037781, 0.8035207986831665]
 
-10, tanh                    [0.8426638245582581, 0.6704355478286743] 
-15, tanh                    [1.0641387701034546, 0.5032894015312195]
-20, tanh                    [0.6486892104148865, 0.7749320864677429]
+    10, gelu                    [0.4495931565761566, 0.8146061897277832] 
+    15, gelu                    [0.4354126453399658, 0.8267980813980103]
+    20, gelu                    [0.5503770709037781, 0.8035207986831665]
+
+    10, tanh                    [0.8426638245582581, 0.6704355478286743] 
+    15, tanh                    [1.0641387701034546, 0.5032894015312195]
+    20, tanh                    [0.6486892104148865, 0.7749320864677429]
 
 Summary:
 
@@ -190,7 +193,7 @@ Some potential reasons why gelu is performing better than tanh:
 1. tanh would cause gradient vanishing problem, while gelu would not
 2. Gelu is even better than relu in a sense that it could stop neurons from dying out with also a bound on how far negative gradient could affect the model. Comparing to Relu, which would cause the gradient to be zero in the negative regime, Gelu could help to still preserve the negativity over neurons. 
 
-Width vs test accuracy:
+Width vs test accuracy: <br/>
 While the models are expected to perform better with more neurons on each layer, what we observe is that the test accuracy is the best with a moderate number of neurons on each layer, since high width could potential cause overfitting. 
 
 ### How to Run with Docker<a id="docker"></a>
